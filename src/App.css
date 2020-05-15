@@ -1,7 +1,6 @@
 .App {
   text-align: center;
   height: 100vh;
-  background-color: antiquewhite;
 }
 
 .logos {
@@ -17,7 +16,7 @@
 }
 
 #redux-logo {
-  height:17rem;
+  height:7rem;
   margin-top: .10rem;
   padding-top: .5rem;
 }
