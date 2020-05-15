@@ -1,0 +1,55 @@
+.tile {
+  display: inline-flex;
+}
+
+.freeSpace {
+  background-color: rgb(175, 237, 163);
+  color: rgb(175, 237, 163);
+}
+
+.grass {
+  background-color: lightgreen; 
+  color: lightgreen
+}
+
+.tree {
+  background-image: url('./images/tree.png');
+  background-size: cover;
+  color: lightgreen;
+}
+
+.mountains {
+  color: white;
+  background-image: url('./images/mountains.png');
+  background-size: 40px 40px;
+  /* filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%); */
+}
+
+.water {
+  background-color: blue;
+  color: blue;
+}
+
+.fakeMountains {
+  color: white;
+  background-image: url('./images/mountains.png');
+  background-size: 40px 40px;
+}
+.fakeTree {
+  color: lightgreen;
+  background-image: url('./images/tree.png');
+  background-size: 40px 40px;
+}
+
+.treasure {
+  color: white;
+  background-image: url('./images/treasureChest.png');
+  background-size: 40px 40px;
+  /* filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%); */
+}
+
+.function {
+  background-color: lightgreen;
+  color: lightgreen;
+  background-size: 40px 40px;
+}
